@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+}
+
+#data {
+    margin-left: 5%;
+}
+
+@font-face {
+    font-family: SourceSansProExtraLight;
+    src: url("font/SourceSansPro-ExtraLight.woff") format("woff"), url("font/SourceSansPro-ExtraLight.ttf")  format("truetype");
+}
+
+a>img {
+    width: 55px;
+    height: 55px;
+    opacity: 0.4;
+}
+
+hr {
+    padding-left: 0;
+    background-color: white;
+    opacity: 0.6;
+    margin-left: 0;
+    width: 75px;
+}
+
+a>img:hover {
+    opacity: 1.0;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    background: #B4D3D2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #DFACBE, #7788B6, #7788B6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #DFACBE, #7788B6, #7788B6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #DFACBE, #7788B6, #7788B6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #DFACBE, #7788B6, #7788B6); /* Standard syntax */
+}
+
+#data {
+    width: 50%;
+    height: 75%;
+    position: relative;
+    top: 13%;
+    border-width: 5px;
+    border-color: white;
+}
