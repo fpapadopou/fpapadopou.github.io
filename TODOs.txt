@@ -1,0 +1,5 @@
+Some nice-to-have's
+- CSS for various screen sizes
+- Fade in effect for `data` element
+- Comments on CSS rules
+- Open hrefs in new tabs
